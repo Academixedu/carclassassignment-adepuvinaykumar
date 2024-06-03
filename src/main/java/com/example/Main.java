@@ -27,8 +27,13 @@ public class Main {
         bike.displayBikeDetails();
         bike.updatePrice(126000.0);
         System.out.println("-----------------------------------------------------");
+        bike.getBrand();
+        System.out.println("------------------------------------------------------");
 
         Student student=new Student("Vinaykumar ", 25, "17E11A1234","Information Technology");
         student.displayStudentDetails();
+        student.updateMajor("computer science");
+        student.displayStudentDetails();
+
     }
 }

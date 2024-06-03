@@ -63,7 +63,9 @@ public class Student {
     // Method to update major
     public void updateMajor(String newMajor) {
         // TODO: Implement this method
+        System.out.println("------------------------------");;
         this.major=newMajor;
         System.out.println("Major updated successfully");
+        System.out.println("------------------------------------");
     }
 }
